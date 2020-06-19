@@ -1,0 +1,54 @@
+/* Start Navbar */
+.navbar{
+    background: $light-blue;
+    position: fixed;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.signin {
+    border: 1.5px solid #112D4E;
+    color: #112D4E;
+    background: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.register {
+    background: #112D4E;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.signin:focus, .register:focus {
+    
+    outline: none;
+    box-shadow: none;
+}
+
+
+@media(min-width: 992px){
+    .navbar {
+        height: 100px;
+
+        li {
+            margin-right: 20px;
+
+            &:last-child{
+                margin-right: 0px;
+            }
+        }
+    }
+    .signin {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        // margin-right: 10px;
+    }
+}
+/* End Navbar */
