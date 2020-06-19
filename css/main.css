@@ -4,42 +4,42 @@ html {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
 
 .devugo-btn {
-  background: #112D4E;
+  background: #112d4e;
   color: #fff;
   border-radius: 5px;
   font-size: 18px;
-  border: 1px solid #112D4E;
+  border: 1px solid #112d4e;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .devugo-btn:hover {
-  background: #3F72AF;
-  border: 1px solid #3F72AF;
+  background: #3f72af;
+  border: 1px solid #3f72af;
   color: #fff;
 }
 
 .devugo-inactive__btn {
-  color: #112D4E;
-  border: 2px solid #112D4E;
+  color: #112d4e;
+  border: 2px solid #112d4e;
   background: #fff;
 }
 
 .devugo-disabled__btn {
   color: #fff;
-  background: #E0E0E0;
+  background: #e0e0e0;
 }
 
 /* Start Navbar */
 .navbar {
-  background: #DBE2EF;
+  background: #dbe2ef;
   position: fixed;
   width: 100%;
   padding-left: 25px;
@@ -47,8 +47,8 @@ html {
 }
 
 .signin {
-  border: 1.5px solid #112D4E;
-  color: #112D4E;
+  border: 1.5px solid #112d4e;
+  color: #112d4e;
   background: white;
   border-radius: 5px;
   padding: 10px 30px;
@@ -60,7 +60,7 @@ html {
 }
 
 .register {
-  background: #112D4E;
+  background: #112d4e;
   color: white;
   padding: 10px 30px;
   font-weight: 600;
@@ -68,10 +68,11 @@ html {
   line-height: 27px;
 }
 
-.signin:focus, .register:focus {
+.signin:focus,
+.register:focus {
   outline: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 @media (min-width: 992px) {
@@ -94,7 +95,7 @@ html {
 .footer footer {
   height: 50px;
   background: #fff;
-  color: #112D4E;
+  color: #112d4e;
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -107,11 +108,11 @@ html {
   display: flex;
   height: 100%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .footer footer div span {
@@ -120,7 +121,7 @@ html {
 }
 
 .footer .navigations {
-  background: #112D4E;
+  background: #112d4e;
   color: #fff;
   text-align: center;
   margin-bottom: 50px;
@@ -129,7 +130,7 @@ html {
 .footer .navigations .navigation {
   padding-top: 15px;
   padding-bottom: 15px;
-  border-bottom: 2px solid #DBE2EF;
+  border-bottom: 2px solid #dbe2ef;
 }
 
 .footer .navigations .navigation h4 {
@@ -180,16 +181,17 @@ html {
   list-style: none;
 }
 
-.footer .navigations .navigation:last-child .footer-nav__content li div, .footer .navigations .navigation:last-child .footer-nav__content li p {
+.footer .navigations .navigation:last-child .footer-nav__content li div,
+.footer .navigations .navigation:last-child .footer-nav__content li p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer .navigations .navigation:last-child .form {
@@ -221,13 +223,14 @@ html {
   .footer .navigations .navigation:last-child h4 {
     display: block;
   }
-  .footer .navigations .navigation:last-child .footer-nav__content li div, .footer .navigations .navigation:last-child .footer-nav__content li p {
+  .footer .navigations .navigation:last-child .footer-nav__content li div,
+  .footer .navigations .navigation:last-child .footer-nav__content li p {
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
   }
 }
 
@@ -252,7 +255,7 @@ html {
 /* Start Home Banner */
 .home-banner {
   height: 502px;
-  background: url("../img/home/banner.jpg"), #112D4E;
+  background: url('../img/home/banner.jpg'), #112d4e;
   background-position: 50% 50%;
   color: #fff;
   padding: 20px;
@@ -270,11 +273,11 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 100%;
 }
 
@@ -298,11 +301,11 @@ html {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .home-banner .main-content .action-btns button {
@@ -332,7 +335,7 @@ html {
   color: #000;
   width: 90%;
   -webkit-box-shadow: 0.39479px 0.78959px 12.6334px rgba(0, 0, 0, 0.1);
-          box-shadow: 0.39479px 0.78959px 12.6334px rgba(0, 0, 0, 0.1);
+  box-shadow: 0.39479px 0.78959px 12.6334px rgba(0, 0, 0, 0.1);
   padding: 10px;
   z-index: 2;
 }
