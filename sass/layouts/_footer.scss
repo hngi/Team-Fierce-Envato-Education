@@ -138,6 +138,15 @@
                         }
 
                     }
+                    .form {
+                        display: block !important;
+                        margin-top: 10px;
+
+                        input {
+                            border: 1px solid $primary-color;
+                            height: 45px;
+                        }
+                    }
                 }
 
             }
