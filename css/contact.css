@@ -88,7 +88,7 @@
 
 }
 
-@media all and (min-width: 0px) {
+@media all and (max-width: 550px) {
     .contact-main{
         height: 1500px;   
     }
