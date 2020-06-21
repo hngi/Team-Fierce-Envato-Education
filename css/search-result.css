@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
 
-
+/* Base styling */
 
 * {
     margin: 0;
@@ -10,10 +10,14 @@
 
 }
 
+
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+/* Base Styling */
 
 
 .search-result {
@@ -55,31 +59,30 @@ html {
     box-shadow: none;
     border-left: 0;
     border-right: 1px solid #ced4da;
+}
 
-  }
-
-  .form-control:focus {
+.form-control:focus {
     outline: 0;
     box-shadow: none;
     border-bottom: 1px solid #ced4da;
     border-top: 1px solid #ced4da;
-  }
+}
 
-  .input-group-text {
-      border-radius: 0;
-      background-color: transparent;
-      border-right: 0;
-      border-left: 1px solid #ced4da;
-      border-top: 1px solid #ced4da;
-      border-bottom: 1px solid #ced4da;
-  }
+.input-group-text {
+    border-radius: 0;
+    background-color: transparent;
+    border-right: 0;
+    border-left: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+}
 
-  .input-group-text:focus {
+.input-group-text:focus {
     outline: 0;
     box-shadow: none;
     border-bottom: 1px solid #ced4da;
     border-top: 1px solid #ced4da;
-  }
+}
 
  
 
@@ -140,7 +143,6 @@ html {
     font-size: 18px;
     line-height: 27px;
     color: #112D4E;
-
 }
 .course-text {
     font-style: normal;
@@ -148,7 +150,6 @@ html {
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-
 }
 .course-price {
     font-style: normal;
@@ -181,14 +182,12 @@ html {
     padding-bottom: 22px;
     border-bottom: 0.5px solid #686868;
     margin-bottom: 38px
-
 }
 
 .btn-flex {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .btn-enroll:hover {
@@ -205,20 +204,13 @@ html {
     line-height: 27px;
     color: #BDBDBD;
 }
-
-
-
 .nav-link:active {
     color:#3F72AF;
 }
 
 .nav .nav-item:not(:last-child) {
-
     margin-right: 47px;
 }
-
-
-
 
 
 /* Media-queries */
@@ -350,6 +342,5 @@ html {
 
     .nav .nav-item:not(:last-child) {
         margin-right: 45px;
-    }
-    
+    }    
 }
