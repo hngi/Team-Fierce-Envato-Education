@@ -66,31 +66,25 @@
     border-radius: 0px;
 }
 
-/* @media   and (max-width: 778px) {
-    .contact-right{
-        padding-left: 15px;
-    }
-    .contact-right > div{
-        padding-bottom: 80px;
-
-    }
-    .contact-main{
-        height: 1300px;   
-    }
-} */
 @media (min-width: 560px) and (max-width: 992px) {
     .contact-main{
-        height: 1300px;   
+        height: 1000px;   
     }
     .contact-right{
         padding-left: 15px;
+    }
+    div[title="social-media"]{
+        display: none;
     }
 
 }
 
 @media all and (max-width: 550px) {
     .contact-main{
-        height: 1500px;   
+        height: 1000px;   
+    }
+    div[title="social-media"]{
+        display: none;
     }
     .contact-right{
         padding-left: 20px;
