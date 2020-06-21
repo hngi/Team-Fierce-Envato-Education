@@ -5,6 +5,29 @@
     width: 100%;
     padding-left: 25px;
     padding-right: 25px;
+    z-index: 5;
+    @include transition-ease;
+
+    .nav-item{
+
+        .nav-link.active, .nav-link:hover{
+            position: relative;
+
+            &::after{
+                position: absolute;
+                content: '';
+                left: 11px;
+                bottom: 5px;
+                height: 2px;
+                width: 40px;
+                background-color: $primary-color;
+            }
+        }
+
+    }
+    li a.nav-link{
+        color: $primary-color !important;
+    }
 }
 .signin {
     border: 1.5px solid #112D4E;
@@ -17,6 +40,11 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+
+    &:hover{
+        background: white !important;
+        color: $primary-color;
+    }
 }
 .register {
     background: #112D4E;
@@ -26,16 +54,17 @@
     font-size: 18px;
     line-height: 27px;
 }
-.signin:focus, .register:focus {
-    
-    outline: none;
-    box-shadow: none;
+
+.show-shadow{
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25) !important;
 }
+
 
 
 @media(min-width: 992px){
     .navbar {
         height: 100px;
+        background: $white;
 
         li {
             margin-right: 20px;
