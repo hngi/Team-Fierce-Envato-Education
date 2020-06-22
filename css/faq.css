@@ -267,10 +267,11 @@ html {
    /* Start Home Banner */
   .home-banner {
     height: 502px;
-    background: url("../img/faq/model.jpg");
+    background: linear-gradient(rgba(17, 45, 78, 0.7), rgba(17, 45, 78, 0.7)), url("../img/faq/model.jpg") no-repeat;
     background-size: cover;
-    background-position: 40%;
-     
+    background-position: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
     padding: 20px;
     
