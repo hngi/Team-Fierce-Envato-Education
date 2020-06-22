@@ -117,7 +117,7 @@ padding: 20px;
   .courses-showcase{
     display: block;
     width: 100%;
-    padding-bottom: 30px;
+    height: 430px;
   }
 }
 .courses-showcase .main-content {
