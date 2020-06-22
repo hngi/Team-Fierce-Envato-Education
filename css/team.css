@@ -201,3 +201,17 @@
 .adjustimage {
   margin-top: -2vh;
 }
+
+.section-title h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 130%;
+}
+
+@media (min-width: 992px) {
+  .section-title h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+  }
+}
